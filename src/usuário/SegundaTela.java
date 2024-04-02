@@ -92,6 +92,7 @@ public class SegundaTela {
 			@Override
 			public void actionPerformed(ActionEvent e) {
 				String text = textField.getText();
+				textField.setText(" ");
 				JOptionPane.showMessageDialog(null, "bemVindo: " + text);
 			}
 		});
